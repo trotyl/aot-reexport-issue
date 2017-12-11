@@ -9,5 +9,13 @@
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
+  ],
+  "angularCompilerOptions": {
+    "flatModuleId": "hello",
+    "flatModuleOutFile": "hello.js",
+    "skipTemplateCodegen": true
+  },
+  "files": [
+    "./public_api.ts"
   ]
 }
